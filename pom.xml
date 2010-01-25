@@ -2,12 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>ar.com.sebasjm.seam.j2se</groupId>
-    <artifactId>swing1</artifactId>
+    <artifactId>jit_jsf</artifactId>
     <packaging>jar</packaging>
-    <version>0.1.1</version>
-    <name>swing1</name>
-    <url>http://maven.apache.org</url>
-
+    <version>0.1.1-SNAPSHOT</version>
+    <name>Just in Time - JSF</name>
+    <description>
+        jit-jsf es una herramienta que permite emular el ciclo de vida de JSF
+        para validar el comportamiento de una aplicacion web sin la necesidad
+        de usar un servidor de aplicaciones
+    </description>
 
     <build>
         <plugins>
@@ -20,9 +23,6 @@
             </plugin>
         </plugins>
     </build>
-
-
-
 
     <dependencies>
         <dependency>
