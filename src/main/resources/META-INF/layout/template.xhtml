@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      >
+    <!-- xmlns:s="http://jboss.com/products/seam/taglib" -->
+
+
+    <head>
+        <title><ui:insert name="title"> JIT JSF Example</ui:insert></title>
+
+        <link href="/resources/css/style_general.css" rel="stylesheet" type="text/css" />
+        <ui:insert name="more-styles" />
+
+        <script type="javascript" src="/resources/js/menu.js" />
+        <ui:insert name="more-scripts" />
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <ui:insert name="more-metainf" />
+    </head>
+
+    <body>
+        <table width="770" border="0" align="center" cellpadding="0" cellspacing="0" class="tabla0">
+            <tr>
+                <td>
+                    <table width="770" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td align="left" valign="top">
+                                <ui:insert name="body" />
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+
+</html>

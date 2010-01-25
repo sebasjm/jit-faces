@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition  xmlns="http://www.w3.org/1999/xhtml"
+                 xmlns:ui="http://java.sun.com/jsf/facelets"
+                 xmlns:h="http://java.sun.com/jsf/html"
+                 xmlns:f="http://java.sun.com/jsf/core">
+
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td width="157" align="left" valign="top"><img src="#{rootPage}/resources/imgs/boton_lateral.gif" /></td>
+            <td width="623" align="left" valign="bottom" class="bg_botonera"><a target='' href="home.jsp"><img name='botonSubMenu0' border="0" src="#{rootPage}/resources/imgs/bt_autogestion.gif" /></a></td>
+            <td width="137" align="right" valign="middle" class="bg_botonera">
+                <h:form>
+                    <h:commandLink action="#{identity.logout}" rendered="#{identity.loggedIn}"><img border="0" src="#{rootPage}/resources/imgs/salir.gif" /></h:commandLink>
+                </h:form>
+            </td>
+        </tr>
+        </table>
+
+</ui:composition>

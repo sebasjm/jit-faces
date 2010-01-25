@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config version="1.2"
+              xmlns="http://java.sun.com/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_1_2.xsd">
+
+	<application>
+		<view-handler>com.sun.facelets.FaceletViewHandler</view-handler>
+        <!--
+        <el-resolver>org.jboss.seam.el.SeamELResolver</el-resolver>
+        -->
+        
+	</application>
+
+    <!--
+    <render-kit>
+        <render-kit-id>swing_render</render-kit-id>
+        <render-kit-class></render-kit-class>
+
+    </render-kit>
+    -->
+    <managed-bean>
+        <managed-bean-class>ar.com.sebasjm.seam.j2se.jsf_swing.modelo.Usuario</managed-bean-class>
+        <managed-bean-name>Usuario</managed-bean-name>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+
+    <!--
+    <lifecycle>
+        <phase-listener>org.jboss.seam.jsf.SeamPhaseListener</phase-listener>
+    </lifecycle>
+    -->
+</faces-config>
+
